@@ -11,7 +11,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-col lg:flex-row lg:justify-between items-center lg:items-start gap-10 text-center lg:text-left">
           
-          {/* Logo + Description */}
+          
           <div className="lg:col-span-5">
             <h2 className="text-3xl font-bold text-white mb-4">DigiTools</h2>
             <p className="leading-relaxed text-gray-400">
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Product */}
+          
           <div className="lg:col-span-2">
             <h3 className="text-white font-semibold mb-5 text-lg">Product</h3>
             <ul className="space-y-3 text-sm">
@@ -31,7 +31,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
+          
           <div className="lg:col-span-2">
             <h3 className="text-white font-semibold mb-5 text-lg">Company</h3>
             <ul className="space-y-3 text-sm">
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
+          
           <div className="lg:col-span-2">
             <h3 className="text-white font-semibold mb-5 text-lg">Resources</h3>
             <ul className="space-y-3 text-sm">
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
+          
           <div className="lg:col-span-1">
             <h3 className="text-white font-semibold mb-5 text-lg">Social Links</h3>
             <div className="flex gap-4">
@@ -71,7 +71,7 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom Bar */}
+        
         <div className="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-center lg:justify-between items-center gap-6 text-sm text-center lg:text-left">
           <p className="text-gray-500">
             © 2026 DigiTools. All rights reserved.

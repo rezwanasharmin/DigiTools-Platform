@@ -19,7 +19,7 @@ import { useState } from 'react';
 function App() {
 
 
-  const [activeTab, setActiveTab] = useState('products');   // Default: Products
+  const [activeTab, setActiveTab] = useState('products');   
   const [cart, setCart] = useState([]);
 
   
