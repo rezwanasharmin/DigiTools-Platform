@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import { useState } from "react";
 
 const ProductCard = ({ addToCart }) => {
@@ -122,7 +123,7 @@ const ProductCard = ({ addToCart }) => {
             <ul className="space-y-2.5 mb-10">
               {product.features.map((feature, i) => (
                 <li key={i} className="flex items-center gap-3 text-sm text-gray-700">
-                  <span className="text-green-500">✓</span> {feature}
+                  <span className="text-green-500"><Check  /></span> {feature}
                 </li>
               ))}
             </ul>
